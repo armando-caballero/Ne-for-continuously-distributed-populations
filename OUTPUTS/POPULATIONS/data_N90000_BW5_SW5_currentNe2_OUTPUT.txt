@@ -1,0 +1,80 @@
+# (currentNe v 2.0)
+# Command: ../currentne2 data.ped
+# Running time:6.43137sec
+#
+# PREPROCESSING INFORMATION:
+# A single population model is assumed with the possibility of considering the existence of full-sibs.
+# The marker locations in a genetic map are known and the chromosome sizes and 
+#   the total genetic size will be calculated using those locations. The genetic 
+#   distances (in Morgans) between loci pairs will be calculated directly using
+#   the locations in the genetic map.
+# Ne will be inferred using the recombination rates between loci and the weighted cuadratic
+#   correlations of alleles across all pairs of loci.
+#
+# INPUT PARAMETERS:
+# Number of chromosomes in the .map file:
+20
+# Genome size in Morgans:
+19.58
+# Total number of individuals in the input file:
+25
+# Effective Number of individuals included in the analysis (excluding missing genotypes):
+25.00
+# Number of SNPs in the input file:
+794
+# Number of SNPs included in the analysis (only polymorphic and with less than 20% missing data):
+794
+# Number of SNP pairs included in the analysis:
+314821
+# Proportion of missing data:
+0.00000000
+# Number of full siblings that a random individual in the population has:
+Not given
+# Number of full siblings that a random individuals in the sample has:
+Not given
+#
+# OUTPUT PARAMETERS:
+# Observed d^2 of the entire sample (weighted correlation of loci pairs):
+0.04627408
+# Observed d^2 of the sample (only between different chromosomes):
+0.04588804
+# Observed d^2 of the sample (within chromosomes):
+0.05364600
+# Expected heterozygosity of the individuals in the sample under H-W eq.:
+0.14974710
+# Observed heterozygosity of the individuals in the sample:
+0.15355164
+# Observed F value in the sample (excess of homozygotes):
+-0.02540639
+#
+# Ne estimation by integration over the whole genome.
+# Based on 314821 pairs of SNPs.
+# Ne point estimate:
+58.11
+# Lower limit of 50% CI:
+51.42
+# Upper bound of 50% CI:
+65.66
+# Lower limit of 90% CI:
+43.13
+# Upper limit of 90% CI:
+78.29
+# Estimated Number of full siblings that a random individuals has in the population:
+0.00
+#
+#
+# Ne estimation based only on LD between chromosomes:
+# Based on 298990 pairs of SNPs between chromosomes.
+# Ne point estimate:
+50.40
+# Lower limit of 50% CI:
+42.97
+# Upper limit of 50% CI:
+59.11
+# Lower limit of 90% CI:
+34.16
+# Upper limit of 90% CI:
+74.36
+# Estimated Number of full siblings that a random individuals has in the population (c=0.5):
+0.00
+#

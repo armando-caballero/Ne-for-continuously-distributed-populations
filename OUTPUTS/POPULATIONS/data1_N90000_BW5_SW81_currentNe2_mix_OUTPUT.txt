@@ -1,0 +1,85 @@
+# (currentNe v 2.0)
+# Command: ../currentne2 -x data1.ped
+# Running time:41.7771sec
+#
+# PREPROCESSING INFORMATION:
+# A metapopulation model of several islands of equal size and symmetrical migration is assumed.
+# The marker locations in a genetic map are known and the chromosome sizes and 
+#   the total genetic size will be calculated using those locations. The genetic 
+#   distances (in Morgans) between loci pairs will be calculated directly using
+#   the locations in the genetic map.
+# Ne will be inferred using the recombination rates between loci and the weighted cuadratic
+#   correlations of alleles of loci pairs at distances greater than 5 cM.
+#
+# INPUT PARAMETERS:
+# Number of chromosomes in the .map file:
+20
+# Genome size in Morgans:
+20.17
+# Total number of individuals in the input file:
+2000
+# Effective Number of individuals included in the analysis (excluding missing genotypes):
+2000.00
+# Number of SNPs in the input file:
+3714
+# Number of SNPs included in the analysis (only polymorphic and with less than 20% missing data):
+3714
+# Number of SNP pairs included in the analysis:
+6895041
+# Proportion of missing data:
+0.00000000
+# Number of full siblings that a random individual in the population has:
+Not given
+# Number of full siblings that a random individuals in the sample has:
+Not given
+#
+# OUTPUT PARAMETERS:
+# Observed d^2 of the entire sample (weighted correlation of loci pairs):
+0.00206532
+# Observed d^2 of the sample (only between different chromosomes):
+0.00206191
+# Observed d^2 of the sample (within chromosomes):
+0.00213762
+# Expected heterozygosity of the individuals in the sample under H-W eq.:
+0.03576223
+# Observed heterozygosity of the individuals in the sample:
+0.03282122
+# Observed F value in the sample (excess of homozygotes):
+0.08223801
+#
+# Fit (probability of IBD within individuals relatively to the entire metapopulation):
+0.082486
+# Fst (subpopulation differentiation):
+0.083205
+# Fis (probability of IBD within individuals in each subpopulation):
+-0.000783
+#
+# Migration rate:
+0.002160
+#
+# Number of subpopulations of equal size (forced to a minimum of two by the option '-x'):
+20
+#
+# N_T of the metapopulation (sum of the Ne values of all subpopulations):
+23018.98
+# Lower 50% limit of the N_T estimate:
+22463.95
+# Upper 50% limit of the N_T estimate:
+23587.71
+# Lower 90% limit of the N_T estimate:
+21688.76
+# Upper 90% limit of the N_T estimate:
+24430.78
+#
+# Ne of the entire metapopulation (effective metapopulation size of drift and inbreeding):
+25108.08
+# Lower 50% limit of the Ne estimate:
+24502.69
+# Upper 50% limit of the Ne estimate:
+25728.43
+# Lower 90% limit of the Ne estimate:
+23657.14
+# Upper 90% limit of the Ne estimate:
+26648.02
+#
+# (end of output)

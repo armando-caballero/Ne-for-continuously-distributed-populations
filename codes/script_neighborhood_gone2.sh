@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -cwd
 
-rm script_neighborhood_gone2.sh.*
+rm script_neighborhood.sh.*
 
 #Set arguments
 NIND=$1

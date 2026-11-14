@@ -1,0 +1,1 @@
+time gcc -O3 -o NEIGHBORHOOD_v7 -w -O NEIGHBORHOOD_v7.c genlib.c -lm
